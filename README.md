@@ -1,27 +1,18 @@
 
 # To fill or not to fill: comparing imputation methods for improved riverine long-term biodiversity monitoring
-## Leader: <a href="https://philliphaubrock.wixsite.com/invasivespecies">Phillip J. Haubrock</a>
+## Leader: <a href="https://www.researchgate.net/profile/Irmak-Kurtul">Irmak Kurtul</a>
 
 <strong>Authors</strong>:
-Phillip J. Haubrock1,2,3, Ismael Soto2, Rafael L. Macêdo4,5,6
-
-<strong>Affiliations</strong>:
-
-- **1** - Department of River Ecology and Conservation, Senckenberg Research Institute and Natural History Museum Frankfurt, Gelnhausen, Germany
-- **2** - Faculty of Fisheries and Protection of Waters, South Bohemian Research Center of Aquaculture and Biodiversity of Hydrocenoses, University of South Bohemia in České Budějovice, Vodňany, Czech Republic
-- **3** - CAMB, Center for Applied Mathematics and Bioinformatics, Gulf University for Science and Technology, Kuwait
-- **4** - Institute of Biology, Freie Universität Berlin, Königin-Luise-Str. 1-3, 14195 Berlin, Germany
-- **5** - Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB), Müggelseedamm 310, 12587 Berlin, Germany
-- **6** - Graduate Program in Ecology and Natural Resources, and Department of Ecology and Evolutionary Biology, Federal University of São Carlos, Sao Carlos, Brazil
+Irmak Kurtul, Ali Serhan Tarkan, Hasan Musa Sarı, Phillip J. Haubrock, Ismael Soto, Sadi Aksu, J. Robert Britton
 
 
 ## Abstract
-In the era of globalisation and climate change, the preservation of global aquatic biodiversity has become unprecedentedly challenging due to intensifying and increasingly synergistic anthropogenic pressures. This study addresses the complex challenges associated with long-term biodiversity monitoring data, specifically the effects of missing years and often applied gap-filling on the accuracy of inferring temporal trends of riverine macroinvertebrate biodiversity. For this, we utilised three distinct time series of >20 years of annual riverine macroinvertebrate community samplings from Denmark, the Netherlands, and Sweden. We apply random deletions to simulate incomplete data and employ multiple imputation methods, including Predictive Mean Matching, Weighted Predictive Mean Matching, Random Forest Imputations, and Random Sample from Observed Values, to fill gaps using linear and non-linear models. Our findings indicate that as the number of gaps increases, variability in trends increases concomitant to a decrease in the Akaike Information Criterion and rise in the standard deviation of the explained deviance by models. This indicates easier fitting with increasing data gaps and an elevated level of unexplained variability introduced by these gaps. Assessing the performance of gap-filling algorithms, we observed that Predictive Mean Matching, which is the most commonly employed imputation algorithm, exhibits limitations, leading to increased uncertainty. Random Forest Imputations and Random Sample from Observed Values demonstrated resilience in capturing underlying linear and non-linear temporal patterns, outperforming Predictive Mean Matching. The study underscores the nuanced challenges associated with missing data and its interpretation, emphasising the importance of careful modelling approach in biodiversity trend analyses. 
+Introductions of non-native species can lead to severe impacts, including the decline of ecosystem function through deleterious impacts on species diversity. The successful establishment of non-native species in new environments is the first barrier a species must overcome, ultimately depending on its ability to either cope with or adapt to local site-specific conditions. Despite the widespread distribution and ecological consequences of many freshwater invaders, site-specific and climatic preferences are often unknown, as in the case of the Eastern mosquitofish Gambusia holbrooki, a global invader considered as a pervasive threat to endemic species. Here, we determined the ecological features and preferred site-specific conditions of G. holbrooki in Türkiye, which spans a wide range of diverse biogeographically distinct ecosystems, by surveying populations from 130 localities in 2016 and 2017. Gambusia holbrooki were detected by hand-net in 48 of these sites (19 lotic, 29 lentic). It showed a preference for shallow waters with medium sized rocks, and abundances differed spatially across a latitudinal gradient and was influenced predominantly by variations in pH. The only other factors predicting its presence were low current velocities and gravel substrate, highlighting its ecological versatility in utilising a wide range of microhabitats. Bioclimatic models suggest that G. holbrooki is found in areas with an average annual temperature ranging from 10 to 20 °C, but with temperature not being a limiting factor to its invasion. Gambusia holbrooki shows a preference for xeric freshwater ecosystems and endorheic basins, as well as temperate coastal rivers, temperate upland rivers, temperate floodplain rivers and wetlands, and tropical and subtropical coastal rivers. These results, particularly the wide occurrence with only few limiting factors, emphasise the invasion potential of mosquitofish and should substantiate the need for localised invasive species management and conservation efforts, particularly in smaller or insular areas where mosquitofish and endemic fish species co-exist.
 
-**Keywords**: Biodiversity monitoring; Missing data; Gap filling; Time series analysis; Resilience; Global biodiversity trends
+**Keywords**: Ecological valenceMicrohabitat preferenceHabitat managementPoeciliidae
 
 ## <a href="https://github.com/IsmaSA/gap_effect/tree/master/code.R">Script:</a>
-Code created by: <a href="https://philliphaubrock.wixsite.com/invasivespecies">Phillip J. Haubrock</a>
+Code created by: <a href="https://www.researchgate.net/profile/Ismael-Soto-4">Ismael Soto</a>
 
-Reproducible to create the plots of the paper
-- <code>Gap_effect_NL.R</code>
+Reproducible code:
+- <code>microhabitat.R</code>
