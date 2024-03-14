@@ -20,7 +20,7 @@ In the era of globalisation and climate change, the preservation of global aquat
 
 **Keywords**: Biodiversity monitoring; Missing data; Gap filling; Time series analysis; Resilience; Global biodiversity trends
 
-## <a href="https://github.com/IsmaSA/Aquaculture/tree/master/Code">Script:</a>
+## <a href="https://github.com/IsmaSA/gap_effect/tree/master/code.R">Script:</a>
 Code created by: <a href="https://philliphaubrock.wixsite.com/invasivespecies">Phillip J. Haubrock</a>
 
 Reproducible to create the plots of the paper
